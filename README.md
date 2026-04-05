@@ -1,54 +1,68 @@
 # Email_Client_App
 
-A modern email client built with Flutter demonstrating clean architecture, state management, and API integration(mock data).
+A simple and scalable email client mobile application built with Flutter.  
+This project demonstrates clean architecture, state management, API simulation, and a polished user experience.
 
 ---
 
 ##  Features
 
--  Authentication (Mock login)
--  Inbox screen (email list)
--  Email detail view
--  Compose email
--  Mark emails as read/unread
--  Pull-to-refresh
--  Smooth navigation
+-  **Authentication**
+  - Mock login system
+  - Form validation with error handling
+
+-  **Inbox Screen**
+  - List of emails (mock data)
+  - Displays sender, subject, preview, and timestamp
+
+-  **Email Detail Screen**
+  - View full email content
+  - Mark emails as read/unread
+
+-  **Compose Email**
+  - Create and send emails (mock functionality)
+  - Includes recipient, subject, and message body
+
+-  **Navigation**
+  - Smooth navigation between all screens
+
+-  **UX Enhancements**
+  - Loading indicators
+  - Error handling
+  - Responsive UI
 
 ---
 
 ##  Architecture
-
 This project follows **Clean Architecture**:
 
 - Presentation (UI)
 - Domain (Business logic)
 - Data (API / Mock services)
+---
 
-State management: **Riverpod**
+## Tech Stack
+
+- **Flutter** (Latest Stable Version)
+- **Riverpod** (State Management)
+- **Clean Architecture**
+- **Mock API / Local Data**
 
 ---
 
-##  Tech Stack
+##  Demo link
 
-- Flutter (latest stable)
-- Riverpod
-- REST API (mock data)
-- Material UI
+https://drive.google.com/file/d/1GMRmBhzeu_Cgg_eYw0-J7AwwP1wVccC-/view?usp=drivesdk
 
----
 
-## 📸 Screenshots
-
-(Add screenshots here)
-
----
-
-## 🎥 Demo
-
-(Add your screen recording link here)
-
----
-
-## ⚙ How to Run
-
+## How to Run the Project
+ **Clone the repository**
+ 
 git clone https://github.com/vikistarz/email_client_app.git
+
+## Challenges Faced
+
+* Managing state across multiple screens using Riverpod
+* Structuring the app with clean architecture
+* Handling form validation and UI responsiveness
+* Implementing smooth navigation between screens
